@@ -1,0 +1,27 @@
+.container.shopping {
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        margin: 5px 0;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+        align-self: center;
+    }
+
+    button {
+        margin: 10px 0;
+    }
+
+}

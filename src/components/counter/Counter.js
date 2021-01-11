@@ -22,6 +22,7 @@ const Counter = ({count, incCounter, decCounter, resetCounter, title}) => {
 
 const mapStateToProps = (state) => {
   const {count} = state.counter
+  console.log(count)
     return {
         count: count
     }

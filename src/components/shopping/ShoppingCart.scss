@@ -1,0 +1,40 @@
+$margin-center: 0 auto;
+
+.shopping {
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    .wrapper.button {
+        display: flex;
+        justify-content: center;
+
+        button {
+            height: 30px;
+            width: 200px;
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.wrapper.border {
+    border-style: groove;
+    
+    .wrapper.shopping {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        margin: $margin-center;
+        height: auto;
+        justify-items: center;
+        }
+    }
+
+
+
+
